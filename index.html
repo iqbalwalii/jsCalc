@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="container">
+			<input type="text" value="" />
+			<div class="keys">
+				<div class="nums">
+					<div class="r1 r">
+						<button class="rm" onClick="getNum()" value="7">
+							7
+						</button>
+						<button class="rm" onClick="getNum()" value="8">
+							8
+						</button>
+						<button class="rm" onClick="getNum()" value="9">
+							9
+						</button>
+					</div>
+					<div class="r2 r">
+						<button class="rm" onClick="getNum()" value="4">
+							4
+						</button>
+						<button class="rm" onClick="getNum()" value="5">
+							5
+						</button>
+						<button class="rm" onClick="getNum()" value="6">
+							6
+						</button>
+					</div>
+					<div class="r3 r">
+						<button class="rm" onClick="getNum()" value="1">
+							1
+						</button>
+						<button class="rm" onClick="getNum()" value="2">
+							2
+						</button>
+						<button class="rm" onClick="getNum()" value="3">
+							3
+						</button>
+					</div>
+					<div class="r3 r">
+						<button
+							class="rm"
+							onClick="getNum()"
+							value=""
+							id="reset"
+							style="background-color: rgb(241, 82, 8)"
+						>
+							C
+						</button>
+						<button class="rm" onClick="getNum()" value="0">
+							0
+						</button>
+						<button
+							class="rm"
+							onClick="getNum()"
+							value="."
+							style="background-color: rgba(228, 159, 80, 0.801)"
+						>
+							.
+						</button>
+					</div>
+				</div>
+				<div class="operations">
+					<button class="o rm" onClick="getNum()" value="-">-</button>
+					<button class="o rm" onClick="getNum()" value="/">/</button>
+					<button class="o rm" onClick="getNum()" value="*">*</button>
+					<button class="o rm" onClick="getNum()" value="+">+</button>
+					<button
+						class="o rm equal"
+						style="background-color: rgb(37, 55, 216)"
+					>
+						=
+					</button>
+				</div>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
